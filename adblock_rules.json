@@ -1,0 +1,11 @@
+{
+  "rules": [
+    { "selector": ".adsbox", "action": "remove" },
+    { "selector": ".ad-container", "action": "remove" },
+    { "selector": "#ad-banner", "action": "remove" },
+    { "selector": "[onclick*='window.open']", "action": "remove" },
+    { "selector": "iframe[src*='ads']", "action": "remove" },
+    { "selector": "script[src*='google-analytics']", "action": "remove" },
+    { "selector": "script[src*='facebook.com/tr']", "action": "remove" }
+  ]
+}
